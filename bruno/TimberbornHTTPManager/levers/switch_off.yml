@@ -1,11 +1,11 @@
 info:
-  name: root
+  name: switch_off
   type: http
   seq: 1
 
 http:
-  method: GET
-  url: http://localhost:8000/
+  method: POST
+  url: http://localhost:8000/levers/test/off
   auth: inherit
 
 settings:
